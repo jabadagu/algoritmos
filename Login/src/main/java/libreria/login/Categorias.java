@@ -26,6 +26,8 @@ public class Categorias extends JFrame {
         // Crear el modelo de la tabla
         tableModel = new DefaultTableModel();
         tableModel.addColumn("Columna1");
+        
+        
         tableModel.addColumn("Columna2");
         tableModel.addColumn("Columna3");
         // Agrega más columnas según tu archivo CSV
